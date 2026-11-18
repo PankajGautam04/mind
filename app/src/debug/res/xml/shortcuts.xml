@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="mind_capture_screen"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_capture_short"
+        android:shortcutLongLabel="@string/shortcut_capture_long">
+        <intent
+            android:action="com.mind.app.ACTION_CAPTURE_SCREEN"
+            android:targetPackage="com.mind.app.debug"
+            android:targetClass="com.mind.app.capture.CaptureTriggerActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="mind_voice_memory"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_voice_short"
+        android:shortcutLongLabel="@string/shortcut_voice_long">
+        <intent
+            android:action="com.mind.app.ACTION_OPEN_VOICE_CAPTURE"
+            android:targetPackage="com.mind.app.debug"
+            android:targetClass="com.mind.app.MainActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="mind_quick_note"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_note_short"
+        android:shortcutLongLabel="@string/shortcut_note_long">
+        <intent
+            android:action="com.mind.app.ACTION_OPEN_NOTE_CAPTURE"
+            android:targetPackage="com.mind.app.debug"
+            android:targetClass="com.mind.app.MainActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="mind_search"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_search_short"
+        android:shortcutLongLabel="@string/shortcut_search_long">
+        <intent
+            android:action="com.mind.app.ACTION_OPEN_SEARCH"
+            android:targetPackage="com.mind.app.debug"
+            android:targetClass="com.mind.app.MainActivity" />
+    </shortcut>
+</shortcuts>

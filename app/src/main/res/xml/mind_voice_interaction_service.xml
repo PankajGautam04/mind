@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voice-interaction-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:recognitionService="com.mind.app.assist.MindRecognitionService"
+    android:sessionService="com.mind.app.assist.MindVoiceInteractionSessionService"
+    android:settingsActivity="com.mind.app.MainActivity"
+    android:supportsAssist="true"
+    android:supportsLaunchVoiceAssistFromKeyguard="false" />

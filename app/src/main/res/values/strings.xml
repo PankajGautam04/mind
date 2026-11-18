@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mind</string>
+    <string name="qs_tile_label">Save to Mind</string>
+    <string name="shortcut_anything_short">Capture Anything</string>
+    <string name="shortcut_anything_long">Open quick capture menu over any app</string>
+    <string name="shortcut_capture_short">Capture Screen</string>
+    <string name="shortcut_capture_long">Capture current screen to Mind</string>
+    <string name="shortcut_voice_short">Voice Memory</string>
+    <string name="shortcut_voice_long">Record a voice memory</string>
+    <string name="shortcut_note_short">Quick Note</string>
+    <string name="shortcut_note_long">Save a note or quote</string>
+    <string name="shortcut_search_short">Search Mind</string>
+    <string name="shortcut_search_long">Search saved memories</string>
+    <string name="widget_description">Modern quick capture dock for Screen, Voice, Note, Search, and Capture Anything.</string>
+    <string name="accessibility_service_label">Mind One-Tap Screenshot</string>
+    <string name="accessibility_service_summary">Enables instant 1-tap screen capture without repeated confirmation dialogs.</string>
+    <string name="accessibility_service_description">Mind only captures a single screen image at the exact moment you tap a Mind capture shortcut (Quick Settings tile, Side Button double-press, widget, or floating button). Mind does not read windows, monitor typing, or collect screen data in the background.</string>
+    <string name="assistant_service_label">Mind Assistant</string>
+</resources>
